@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    line-height: 24px;
+}
+section{
+    margin: 4rem 2rem;
+    display: grid;
+    
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1rem 1rem 1rem;
+    color:hsl(179, 62%, 43%);
+}
+
+
+.sub .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.why-us .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.join{
+    background-color: white;
+    padding: 2rem 0rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.guarantee{
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(71, 73%, 54%);
+    padding: 0.5rem 2rem;
+}
+p{
+    color: white;
+    padding: 0.5rem 1rem 2rem;
+}
+.join p{
+    color: hsl(218, 22%, 67%);
+    padding: 0rem 2rem;
+}
+
+.sub{
+    background-color: hsl(179, 94%, 34%);
+    padding: 0.5rem 1rem;
+}
+.price{
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+}
+.sub span{
+    color: white;
+    font-size: 40px;
+    
+}
+.why-us{
+    background-color: hsl(179, 62%, 43%);
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.button{
+    padding: 1rem;
+}
+button{
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: -2px 3px 5px gray;
+    transition-duration: 0.3s;
+}
+button:active{
+    transform: scale(0.8);
+}
+@media only screen and (min-width:1440px){
+    section{
+        grid-template-rows:1fr 1.3fr ;
+        grid-template-columns: 3fr 2fr 2fr 3fr;
+    }
+    .join{
+        grid-column: 2/4;
+    }
+    .sub{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        border-bottom-left-radius: 30px;
+    }
+    .why-us{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        border-bottom-left-radius: 0px;
+    }
+    
+    
+    
+}

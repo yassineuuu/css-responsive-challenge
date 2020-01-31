@@ -33,3 +33,4 @@ Il existe également un fichier `style-guide.md`, qui contient les informations 
 - Respect des conventions de nommage;
 - Code bien organisé et commenté;
 - Explication claire et concise du code élaboré.
+# css-responsive-challenge
