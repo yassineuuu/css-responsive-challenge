@@ -57,7 +57,7 @@ section{
     border: 1px solid lightgray;
     color: hsl(249, 10%, 26%);
 }
-.button2 button{
+.button2 input{
      color: white;
      font-size: 20px;
     width: 100%;
@@ -66,6 +66,9 @@ section{
     padding: 1.5rem 0rem ;
     border-radius: 10px;
     box-shadow: 0px 5px px black;
+}
+.input:invalid{
+    
 }
 .button2{
     padding: 1rem 1.5rem 0rem;
