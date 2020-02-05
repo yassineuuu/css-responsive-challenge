@@ -1,0 +1,248 @@
+footer {
+  font-family: "Open Sans", sans-serif;
+  background-color: #070439;
+  color: white;
+  padding: 1rem;
+  line-height: 36px;
+}
+
+footer .logo img {
+  width: 40%;
+  padding: 1rem;
+}
+
+footer .email img {
+  padding: 0rem 1rem;
+}
+
+footer .phone img {
+  padding: 0rem 1rem;
+}
+
+footer .adresse {
+  padding: 1rem;
+}
+
+footer .part1 {
+  padding: 1rem;
+}
+
+footer .part2 {
+  padding: 1rem;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.illustration img {
+  width: 100%;
+}
+
+header {
+  padding: 2rem;
+  background-image: url(images/bg-hero-mobile.svg);
+  background-color: #ebfbff;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .logo1 img {
+  width: 45%;
+}
+
+header nav .btn1 {
+  width: 30%;
+  height: 3vh;
+}
+
+header nav .btn1 button {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  color: #00252e;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+}
+
+header .text {
+  text-align: center;
+  margin-top: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+header .text .title {
+  font-size: 12px;
+}
+
+header .text .para {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+header .text .btn2 button {
+  background-color: #ff52bf;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  -webkit-box-shadow: 0px 2px 5px gray;
+          box-shadow: 0px 2px 5px gray;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.7rem 3rem;
+  margin: 1rem;
+  margin-bottom: 4rem;
+}
+
+.section1 {
+  padding: 2rem;
+}
+
+.section1 .grow {
+  text-align: center;
+  padding: 3rem 0rem 1rem;
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 2px 6px gray;
+          box-shadow: 0px 2px 6px gray;
+  line-height: 24px;
+}
+
+.section1 .grow .illustration {
+  padding: 0rem 3rem 2rem;
+}
+
+.section1 .grow .title {
+  font-size: 24px;
+  padding: 1rem 1rem 1rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.section1 .grow .para {
+  font-size: 14px;
+  color: #808d99;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+}
+
+.section1 .conv {
+  text-align: center;
+  padding: 3rem 0rem 1rem;
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 2px 6px gray;
+          box-shadow: 0px 2px 6px gray;
+  line-height: 24px;
+}
+
+.section1 .conv .illustration {
+  padding: 0rem 3rem 2rem;
+}
+
+.section1 .conv .title {
+  font-size: 24px;
+  padding: 1rem 1rem 1rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.section1 .conv .para {
+  font-size: 14px;
+  color: #808d99;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+}
+
+.section1 .users {
+  text-align: center;
+  padding: 3rem 0rem 1rem;
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 2px 6px gray;
+          box-shadow: 0px 2px 6px gray;
+  line-height: 24px;
+}
+
+.section1 .users .illustration {
+  padding: 0rem 3rem 2rem;
+}
+
+.section1 .users .title {
+  font-size: 24px;
+  padding: 1rem 1rem 1rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.section1 .users .para {
+  font-size: 14px;
+  color: #808d99;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 1440px) {
+  .section1 .grow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: start;
+  }
+  .section1 .grow .illustration {
+    width: 50%;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
+
+.section2 {
+  margin: 0rem 2rem;
+  text-align: center;
+  padding: 1rem 0rem 1rem;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 2px 6px gray;
+          box-shadow: 0px 2px 6px gray;
+  line-height: 24px;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.section2 .title {
+  font-size: 16px;
+  padding: 1rem 1rem 1rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.section2 .btn2 button {
+  background-color: #ff52bf;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  -webkit-box-shadow: 0px 2px 5px gray;
+          box-shadow: 0px 2px 5px gray;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.7rem 3rem;
+  margin: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

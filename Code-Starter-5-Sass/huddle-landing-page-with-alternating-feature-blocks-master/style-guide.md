@@ -27,12 +27,12 @@ The designs were created to the following widths:
 
 ### Headings
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)font-family: 'Poppins', sans-serif;
 - Weights: 600
 
 ### Body, Call-to-actions
 
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)font-family: 'Open Sans', sans-serif;
 - Weights: 400, 700
 
 ## Icons

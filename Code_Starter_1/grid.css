@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+header{
+    text-align: center;
+    margin-left: 1rem;
+}
+.title1{
+font-size: 30px;
+}
+.title2{
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+}
+.para{
+    margin-top: 2%;
+}
+.para {
+    max-width: 32%;
+    margin-left: 35%;
+    font-size: 15px;
+    color: lightgrey;
+    
+}
+
+section{
+    padding: 5rem 12rem 3rem 16rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.supervisor,.team-builder,.karma,.calculator {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px grey;
+    width: 80%;
+    height: 200px;
+    padding: 2rem;
+
+    
+}
+.img img{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+.supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+    grid-column: 1/2;
+    grid-row: 1/3;
+    align-self: center;
+}
+.team-builder{
+    border-top: 3px solid hsl(0, 78%, 62%);
+    grid-column: 2/3;
+
+}
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    grid-column: 2/3;
+}
+.calculator{
+    border-top: 3px solid hsl(212, 86%, 64%);
+    grid-column: 3/4;
+    grid-row: 1/3;
+    align-self: center;
+
+
+}
+.attribution { font-size: 11px; text-align: right;margin-right: 3rem; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media screen and (max-width: 500px){
+    header{
+        text-align: start;
+    }
+    .title1{
+        font-size: 26px;
+        }
+        .title2{
+            color: hsl(234, 12%, 34%);
+            font-size: 14px;
+        }
+          
+    .para {
+        max-width: 90%;
+        margin-left:1%;
+        font-size: 15px;
+        color: lightgrey;
+        
+    }
+    section{
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .supervisor,.team-builder,.karma,.calculator {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px 5px 10px grey;
+        width: 80%;
+        height: 200px;
+        padding: 2rem;   
+        margin-top: 2rem;
+    }
+    .supervisor{
+        border-top: 3px solid hsl(180, 62%, 55%);
+      
+    }
+    .team-builder{
+        border-top: 3px solid hsl(0, 78%, 62%);
+        
+    
+    }
+    .karma{
+        border-top: 3px solid hsl(34, 97%, 64%);
+    }
+    .calculator{
+        border-top: 3px solid hsl(212, 86%, 64%);
+     
+}
+}
