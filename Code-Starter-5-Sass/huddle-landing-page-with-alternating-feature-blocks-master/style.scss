@@ -60,6 +60,7 @@ header{
         .btn2{
             button{
                  @include btn2;
+                 padding: 1rem;
                  margin-bottom: 4rem;
                 }
         }
@@ -79,9 +80,7 @@ header{
     .users{
       @include article-phone;
     }
-    @include responsive($grow);
-    @include responsive($conv);
-    @include responsive($users);
+  
 }
 
 .section2{
@@ -105,5 +104,95 @@ header{
             }
     }
 }
+@media only screen and (min-width:1440px){
 
+    header{
+        nav{ 
+            justify-content: space-between;
+            padding: 1rem 4rem;
+            .logo1{
+                img{
+                width: 100%;
+                }
+            }
+            .btn1{
+                width: 10%;
+            }
+            
+        }
+        .head{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding: 4rem;
+            align-self: center;
+            .text{
+                text-align: start;
+                .title{
+                    h1{
+                        font-size: 48px;   
+                    }
+                }
+                .para{
+                    font-size: 20px;
+                }
+            }
+        }
 
+        
+    }
+    .section1{
+        display: grid;
+        justify-items: center;
+        .grow{
+        @include grid;
+        max-width: 80%;
+        
+        }
+    
+        .conv{
+            @include grid;
+            max-width: 80%;
+            .text{
+                grid-column: 1/2;
+                grid-row: 1/2;
+
+            }
+            img{
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+
+        }
+    
+        .users{
+            @include grid;
+            max-width: 80%;
+
+        }
+      
+      
+    }
+    .section2{
+          margin: 0rem 25rem;  
+    }
+    footer{
+        padding-top: 8rem;
+
+        .about{
+            padding: 3rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            align-self: center;
+            .part1,.part2{
+                justify-self: center;
+            }
+
+        }
+        .about2{
+            margin-top: 3rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+    }
+}

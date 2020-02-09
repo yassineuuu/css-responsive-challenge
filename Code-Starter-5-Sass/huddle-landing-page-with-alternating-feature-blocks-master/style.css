@@ -97,10 +97,12 @@ header .text .btn2 button {
   border: none;
   -webkit-box-shadow: 0px 2px 5px gray;
           box-shadow: 0px 2px 5px gray;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 0.7rem 3rem;
+  padding: 0.7rem 1rem;
   margin: 1rem;
+  width: 30%;
+  padding: 1rem;
   margin-bottom: 4rem;
 }
 
@@ -195,24 +197,6 @@ header .text .btn2 button {
   padding: 1rem;
 }
 
-@media only screen and (min-width: 1440px) {
-  .section1 .grow {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: start;
-  }
-  .section1 .grow .illustration {
-    width: 50%;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-}
-
 .section2 {
   margin: 0rem 2rem;
   text-align: center;
@@ -240,9 +224,123 @@ header .text .btn2 button {
   border: none;
   -webkit-box-shadow: 0px 2px 5px gray;
           box-shadow: 0px 2px 5px gray;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 0.7rem 3rem;
+  padding: 0.7rem 1rem;
   margin: 1rem;
+  width: 30%;
+}
+
+@media only screen and (min-width: 1440px) {
+  header nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1rem 4rem;
+  }
+  header nav .logo1 img {
+    width: 100%;
+  }
+  header nav .btn1 {
+    width: 10%;
+  }
+  header .head {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    padding: 4rem;
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+  header .head .text {
+    text-align: start;
+  }
+  header .head .text .title h1 {
+    font-size: 48px;
+  }
+  header .head .text .para {
+    font-size: 20px;
+  }
+  .section1 {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+  }
+  .section1 .grow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    max-width: 80%;
+  }
+  .section1 .conv {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    max-width: 80%;
+  }
+  .section1 .conv .text {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .section1 .conv img {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .section1 .users {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    max-width: 80%;
+  }
+  .section2 {
+    margin: 0rem 25rem;
+  }
+  footer {
+    padding-top: 8rem;
+  }
+  footer .about {
+    padding: 3rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+  footer .about .part1, footer .about .part2 {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  footer .about2 {
+    margin-top: 3rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 /*# sourceMappingURL=style.css.map */
